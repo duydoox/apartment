@@ -1,0 +1,12 @@
+.filter input{
+    outline: none;
+    border: 1px #888888 solid;
+    color: #dedede;
+    background: none;
+    padding: 10px;
+}
+
+.filter input:focus{
+    color: #fff;
+    border: 1px solid #fff;
+}

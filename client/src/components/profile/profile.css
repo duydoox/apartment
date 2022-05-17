@@ -1,0 +1,160 @@
+.profile {
+    height: 80vh;
+    display: flex;
+    border: 1px #888888 solid;
+    margin: 0px 20px;
+}
+
+.chung {
+    margin: 30px 0px;
+}
+
+.avatar-profile {
+    width: 30%;
+}
+
+.content-info h3,
+.setting-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.security h4 {
+    margin-bottom: 35px;
+}
+
+.avatar-profile p {
+    color: #cbcaca;
+}
+
+.avatar-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 3px solid #cccccc;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 40px auto 8px auto;
+}
+
+.button-select {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.btn-select {
+    margin: 0px 5px;
+    padding: 5px;
+    border: 0.5px solid #888888;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.btn-select:hover {
+    color: aqua;
+}
+
+.information {
+    width: 40%;
+    text-align: left;
+    padding: 0px 30px;
+    border-left: 1px #888888 solid;
+    border-right: 1px #888888 solid;
+}
+
+.security {
+    width: 30%;
+    text-align: left;
+    padding: 0px 30px;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex label {
+    width: 150px;
+}
+
+.btn-info {
+    margin-top: 20px;
+}
+
+.sex-input {
+    width: 23%;
+}
+
+.name-input {
+    width: 75%;
+}
+
+.btn-info button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    background-color: #cbcaca;
+}
+
+.btn-info button:hover {
+    transform: translateY(-1px);
+    background-color: #fff;
+}
+
+.setting-info input,
+.security input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 5px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0.5px solid #888888;
+}
+
+.setting-info input:focus,
+.security input:focus {
+    border: 1px solid #fff;
+}
+
+.setting-info label,
+.security label {
+    font-size: 0.8rem;
+    color: #c6c6c6;
+}
+
+.drop {
+    position: relative;
+}
+
+.sl,
+.sl-item {
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+    border: 1px #888888 solid;
+    padding: 10px;
+    font-size: 0.68rem;
+    font-weight: 500;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.sl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sl-list {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    background-color: var(--bg-body);
+}
+
+.sl-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.message-date {
+    font-size: 0.8rem;
+    color: aqua;
+}

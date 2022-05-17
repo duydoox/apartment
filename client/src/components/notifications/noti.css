@@ -1,0 +1,26 @@
+.notis{
+    /* background-color: red; */
+    text-align: left;
+    padding: 10px;
+}
+
+.notis li{
+    padding: 10px;
+    font-size: 1.2rem;
+
+}
+
+.notis li p{
+    margin: 0;
+    font-size: 0.9rem;
+    margin-left: 10px;
+    color: #d5d4d4;
+}
+
+.notis li:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.not_seen{
+    background-color: rgba(255, 255, 255, 0.1);
+}

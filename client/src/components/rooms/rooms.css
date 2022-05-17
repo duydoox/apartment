@@ -1,0 +1,47 @@
+.rooms{
+    display: flex;
+    /* background-color: red; */
+    text-align: left;
+    padding: 10px;
+}
+
+.list-room{
+    flex: 1;
+    /* background-color: aquamarine; */
+    padding: 10px;
+    border-right: 1px #888888 solid;
+}
+
+.list-room button{
+    margin-top: 10px;
+    background-color: #cbcaca;
+    padding: 5px 10px;
+}
+
+.list-room ul li{
+    padding: 10px;
+}
+
+.list-room button:hover{
+    transform: translateY(-1px);
+    background-color: #fff;
+}
+
+.list-room ul li:hover{
+    transform: translateY(-1px);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-room{
+    flex: 3;
+    padding: 10px;
+}
+
+.detail-room p{
+    margin: 0;
+}
+
+.create-room label{
+    width: 150px;
+}
+

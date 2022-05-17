@@ -1,0 +1,138 @@
+
+POST http://localhost:6868/register
+Content-Type: application/json
+
+{
+    "phoneNumber": "1234567897",
+    "password": "thaithuytb",
+    "roomID": 4,
+    "isAdmin": false
+}
+
+###
+GET http://localhost:4000/images/post/thucthe.jpg
+
+###
+POST http://localhost:4000/login
+Content-Type: application/json
+
+{
+    "phoneNumber": "0343221213",
+    "password": "duy"
+}
+###
+GET http://localhost:6868/allUser
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTY0ODQ1MTkwNSwiZXhwIjoxNjQ4NDY5OTA1fQ.qTvunwxe2wfo6NSpCRg3TwLlUz73T7Dii-zFft6iTvI
+
+###
+POST http://localhost:6868/updateUser
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ3MDgxMDQ2LCJleHAiOjE2NDcwOTEwNDZ9.hvoSp56ePIEE6u5G3QkSFGTHhdmjKCVUNdNUjXPq4wc
+Content-Type: application/json
+
+{
+    "fullName": "Thaingoooo",
+    "cardNumber": 123456789,
+    "sex": "female",
+    "dateOfBirth": "2001-11-29T16:50:50.844Z"
+}
+
+###
+GET  http://localhost:4000/posts
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjQsImlhdCI6MTY1MTIwNzkwOCwiZXhwIjoxNjUxMjI1OTA4fQ.R3MzCfSs6BhavA1zYRylTgpBHiGTEaBeM_bBVcK6ETY
+perpage: 5
+page: 1
+Content-Type: application/json
+
+###
+POST http://localhost:4000/posts
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MjQsImlhdCI6MTY1MTIwNzkwOCwiZXhwIjoxNjUxMjI1OTA4fQ.R3MzCfSs6BhavA1zYRylTgpBHiGTEaBeM_bBVcK6ETY
+Content-Type: application/json
+
+{
+    "content": "content 2", 
+    "range": "private", 
+    "img": "thucthe.jpg" , 
+    "title": "ok"
+}
+
+###
+GET http://localhost:6868
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjQ4MTEyMTE3LCJleHAiOjE2NDgxMTU3MTd9.DBr7s0gU0059hRxPa5fWQVMfuzKTDVoV4QabKiStl8M
+
+###
+POST http://localhost:6868/changePW
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6NCwiaWF0IjoxNjQ4MDE4NzU2LCJleHAiOjE2NDgwMjIzNTZ9.-egA1ucecENWw_cjo5ZB1SvVdQ9Zz1peBuIiED7cuKw
+Content-Type: application/json
+
+{
+    "password": "thaithuytb",
+    "newPassword": "thaithuy"
+}
+
+###
+
+GET http://localhost:6868/user
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTY0ODQ1MTkwNSwiZXhwIjoxNjQ4NDY5OTA1fQ.qTvunwxe2wfo6NSpCRg3TwLlUz73T7Dii-zFft6iTvI
+###
+GET http://localhost:6868/detailUser
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTY0ODQ1MTkwNSwiZXhwIjoxNjQ4NDY5OTA1fQ.qTvunwxe2wfo6NSpCRg3TwLlUz73T7Dii-zFft6iTvI
+
+###
+
+GET http://localhost:6868/room/4
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTMsImlhdCI6MTY0ODQ1MjYxNSwiZXhwIjoxNjQ4NDcwNjE1fQ.RjWpKDdzpHrYWXDx6eC_pEpSOEb_v03wD2Phk12ze_s
+
+###
+GET http://localhost:6868/room
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTY0ODQ1MTkwNSwiZXhwIjoxNjQ4NDY5OTA1fQ.qTvunwxe2wfo6NSpCRg3TwLlUz73T7Dii-zFft6iTvI
+
+###
+
+POST http://localhost:6868/room
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ3ODgwNjE2LCJleHAiOjE2NDc4ODQyMTZ9.srNIGMUMQ3moziQWpZHKyMHvW4vB0bK1paAU32yUvmY
+Content-Type: application/json
+
+{
+    "roomName": "c6",
+    "rentPrice": 3500000,
+    "isEmpty": true,
+    "haveWifi": true
+}
+
+###
+PUT http://localhost:6868/room/3
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ3ODgwNjE2LCJleHAiOjE2NDc4ODQyMTZ9.srNIGMUMQ3moziQWpZHKyMHvW4vB0bK1paAU32yUvmY
+Content-Type: application/json
+
+{
+    "roomName": "c3.3",
+    "rentPrice": 2000000,
+    "isEmpty": true,
+    "haveWifi": true
+}
+
+###
+DELETE  http://localhost:6868/room/5
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ3ODM3Njc3LCJleHAiOjE2NDc4NDEyNzd9.mwWOvqGEwzaO7bfgnFN5ilPQpqN1u_qlk1Mq2AEEoOE
+Content-Type: application/json
+
+###
+GET http://localhost:6868/bill/4
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MTIsImlhdCI6MTY0ODQ1MTkwNSwiZXhwIjoxNjQ4NDY5OTA1fQ.qTvunwxe2wfo6NSpCRg3TwLlUz73T7Dii-zFft6iTvI
+Content-Type: application/json
+
+{
+    "year": 2022,
+    "month": 1
+}
+###
+POST http://localhost:6868/bill/6
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiaWF0IjoxNjQ4Mzc0MTE5LCJleHAiOjE2NDgzOTIxMTl9.c1OTLBXgnKMLp3oyK81euCl9NUNTrdEWu6NrpDPvst0
+Content-Type: application/json
+
+{
+    "electricNumber": 70,
+    "waterBlockNumber": 70,
+    "paid": false,
+    "sent": false
+}

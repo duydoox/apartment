@@ -1,0 +1,82 @@
+.form {
+    border-radius: 5px;
+    border: rgba($color: #fff, $alpha: 0.4) 0.5px solid;
+    margin: 60px auto;
+    padding: 20px 50px;
+    width: 400px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    h2 {
+        color: #fff;
+    }
+
+    h4 {
+        color: rgba($color: #fff, $alpha: 0.6);
+        font-weight: 500;
+    }
+
+    input[name="phoneNumber"] {
+        margin-top: 40px;
+    }
+
+    input {
+        font-size: 1rem;
+        padding: 15px 10px;
+        margin: 5px 0px;
+        width: 100%;
+        outline: none;
+        // border: 1px solid #026366;
+        border-radius: 10px;
+        background-color: #fff;
+        color: rgba($color: #000, $alpha: 1);
+
+    }
+
+    #submit {
+        margin-top: 5px;
+        border: none;
+    }
+
+    #submit:hover {
+        background-color: rgba($color: #000, $alpha: 0.5);
+        color: white;
+    }
+
+    .about {
+        display: flex;
+        justify-content: space-between;
+        background: none;
+
+        h4 {
+            cursor: pointer;
+            font-size: 0.85em;
+        }
+
+        h4:hover {
+            text-decoration: underline;
+            color: #fff;
+        }
+    }
+}
+
+.background-login {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background: no-repeat;
+    background-image: url('../../../public/asset/wallhaven-eyz668_1920x1080.png');
+    background-size: cover;
+}
+
+.background-login div {
+    height: 100%;
+    width: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+}
+
+.background-login div h1{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 30px;
+}
