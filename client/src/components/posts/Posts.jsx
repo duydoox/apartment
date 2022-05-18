@@ -73,6 +73,7 @@ const Posts = () => {
             // scroll.current.scrollTop = 0
             (async () => {
                 try {
+                    page.current = 0
                     const res = await getPage()
                     if (res) {
                         console.log(res.data.data)
