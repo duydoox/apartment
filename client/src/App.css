@@ -394,7 +394,7 @@ nav {
   position: relative;
 }
 
-/* .number-noti{
+.number-noti{
   position: absolute;
   top: -5px;
   right: 0;
@@ -404,4 +404,4 @@ nav {
   color: #fff;
   padding: 0px 3px;
   border-radius: 100px;
-} */
+}
