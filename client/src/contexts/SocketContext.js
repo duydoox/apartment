@@ -11,7 +11,6 @@ const SocketProvider = ({ children }) => {
     const { authState } = useContext(authContext)
     const [notis, setNotis] = useState([])
     const { user } = authState
-    console.log(notis)
 
     useEffect(() => {
         setSocket(io(`http://localhost:${port}`))

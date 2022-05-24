@@ -20,6 +20,10 @@ const authApi = {
     changePW: (req) => {
         return axios.put(`http://localhost:${port}/changePW`, req)
     },
+    findUser: (req) => {
+        return axios.get(`http://localhost:${port}/findUser`, {headers:req})
+
+    },
 
     setHeader: (token) =>{
         axios.defaults.headers.common['authorization'] = `Bearer ${token}`

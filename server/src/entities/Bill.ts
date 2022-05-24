@@ -21,6 +21,9 @@ export class Bill {
     @Column()
         sent!: boolean;
 
+    @Column()
+        description: string;
+
     @CreateDateColumn()
         createAt!: Date;
 

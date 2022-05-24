@@ -13,6 +13,12 @@ export const roomsApi = {
     updateRoom: (id, req) => {
         return axios.put(`http://localhost:${port}/room/${id}`, req)
     },
+    addUser: (id, req) => {
+        return axios.put(`http://localhost:${port}/room/addUser/${id}`, req)
+    },
+    delUser: (id, req) => {
+        return axios.delete(`http://localhost:${port}/room/delUser/${id}`, req)
+    },
     deleteRoom: (id) => {
         return axios.delete(`http://localhost:${port}/room/${id}`)
     }

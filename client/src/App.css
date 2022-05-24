@@ -293,6 +293,16 @@ nav {
   transition: var(--transition);
 }
 
+.btn{
+  padding: 5px 10px;
+  background-color: #cbcaca;
+}
+
+.btn:hover{
+  transform: translateY(-1px);
+  background-color: #fff;
+}
+
 .links a:hover {
   background: var(--clr-primary-8);
   color: var(--clr-white);

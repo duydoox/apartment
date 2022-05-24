@@ -1,4 +1,4 @@
-import { Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
+import { Column, CreateDateColumn, Double, Entity, OneToMany, PrimaryGeneratedColumn, UpdateDateColumn } from 'typeorm';
 import { Bill } from './Bill';
 import { User } from './User';
 
@@ -18,6 +18,15 @@ export class Room {
 
     @Column()
         isEmpty: boolean;
+    
+    @Column()
+        acreage: number;
+    
+    @Column()
+        deposit: number;
+
+    @Column()
+        desciption: string;
 
     @Column()
         haveWifi: boolean;

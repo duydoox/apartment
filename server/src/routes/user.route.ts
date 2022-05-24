@@ -12,6 +12,7 @@ routeUser.get('/user', userController.getUser);
 routeUser.get('/detailUser', userController.getDetailUser);
 routeUser.put('/updateUser', userController.updateDetailUser);
 routeUser.put('/changePW', userController.changePassword);
+routeUser.get('/findUser', userController.findUser);
 
 routeUser.use(authRole('admin'));
 routeUser.get('/allUser', userController.getAllUser);

@@ -1,6 +1,6 @@
 import { Request } from 'express';
 import { User } from '../entities/User';
-import { getRepository } from 'typeorm';
+import { getRepository , Like} from 'typeorm';
 import { ResponseType } from '../types/ResponseType';
 import { Secret, sign } from 'jsonwebtoken';
 import { hash, verify } from 'argon2';
@@ -243,6 +243,26 @@ const userController = {
             console.log(error);
         }
     },
+    findUser: async (req: RequestType, res: ResponseType<User>) => {
+        try {
+            const user = await getRepository(User).find({
+                select: ['userID', 'fullName', 'avatar'],
+                where: {fullName: Like(`${req.headers.key}%`)}
+            });
+            if (!user) {
+                res.status(404).json({
+                    success: false,
+                    message: 'User not found !!!'
+                });
+            }
+            return res.status(200).json({
+                success: true,
+                data: user
+            });
+        } catch (error) {
+            console.log(error);
+        }
+    }
 };
 
 export default userController;

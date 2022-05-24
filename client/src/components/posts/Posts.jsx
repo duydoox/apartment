@@ -76,7 +76,7 @@ const Posts = () => {
                     page.current = 0
                     const res = await getPage()
                     if (res) {
-                        console.log(res.data.data)
+                        // console.log(res.data.data)
                         setPosts([...res.data.data]);
                     }
                 }catch(err){
