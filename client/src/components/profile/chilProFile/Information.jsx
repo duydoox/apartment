@@ -4,6 +4,7 @@ import authApi from '../../../API/authApi'
 
 const Information = ({ data }) => {
   const { user, setUser } = data
+  console.log(user)
   const [setting, setSettting] = useState(false)
   const [selectSex, setSelectSex] = useState(false)
   const [chaneInfo, setChaneInfo] = useState({})

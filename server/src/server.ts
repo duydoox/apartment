@@ -26,7 +26,7 @@ const io = new Server(server, {
         methods: ["GET", "POST"]
     }
 });
-// app.use('/images', express.static(path.join(process.cwd(), 'public/images')));
+app.use('/images', express.static(path.join(process.cwd(), 'public/images')));
 
 // socket
 interface SocketUser {
@@ -61,30 +61,6 @@ io.on("connection", (socket)=>{
         removeUser(socket.id)
     })
 })
-
-app.get('/images/post/:id', function (req, res) {
-    var options = {
-        root: path.join(process.cwd())
-    };
-
-    var fileName = `./public/images/post/${req.params.id}`;
-    const file = path.join(process.cwd(), `public/images/post/${req.params.id}`)
-    fs.stat(file, (err, stat) => {
-        if (err == null) res.sendFile(fileName, options);
-    })
-});
-
-app.get('/images/user/:id', function (req, res) {
-    var options = {
-        root: path.join(process.cwd())
-    };
-
-    var fileName = `./public/images/person/${req.params.id}`;
-    const file = path.join(process.cwd(), `public/images/person/${req.params.id}`)
-    fs.stat(file, (err, stat) => {
-        if (err == null) res.sendFile(fileName, options);
-    })
-});
 
 route(app);
 

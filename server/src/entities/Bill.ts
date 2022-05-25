@@ -14,9 +14,15 @@ export class Bill {
     
     @Column() 
         waterBlockNumber!: number;
+
+    @Column() 
+        otherPrice!: number;
     
     @Column()
         paid!: boolean;
+
+    @Column()
+        haveWifi: boolean;
 
     @Column()
         sent!: boolean;

@@ -4,6 +4,8 @@ import { roomsApi } from '../../API/roomsApi'
 import { roomsContext } from '../../contexts/RoomsContext'
 import { authContext } from '../../contexts/AuthContext'
 import ListUser from './ListUser'
+import Bill from './Bill'
+import UpdateRoom from './UpdateRoom'
 import './rooms.css'
 
 const RoomDetail = () => {
@@ -25,19 +27,12 @@ const RoomDetail = () => {
     const getRoomDetail = async () => {
         try {
             const response = await roomsApi.getRoomDetail(roomID)
-            console.log(response)
             if (response.data.success) {
                 setDetail({ ...detail, ...response.data.data })
             }
         } catch (err) {
             console.log(err)
         }
-    }
-
-    const changeValue = (e) => {
-        const name = e.target.name
-        const value = e.target.value
-        setDetail({ ...detail, [name]: value })
     }
 
     const deleteRoom = async () => {
@@ -78,19 +73,6 @@ const RoomDetail = () => {
                     <p>Ghi chú: {detail.desciption}</p>
                 </div>
             </div>
-            {/* <label>Name: </label>
-            <input value={detail.roomName} name='roomName'
-                onChange={changeValue} /><br />
-            <label>Price: </label>
-            <input value={detail.rentPrice} name='rentPrice'
-                onChange={changeValue} /><br />
-
-            <input type='checkbox' checked={detail.haveWifi} id='wifidetail'
-                onChange={() => setDetail({ ...detail, haveWifi: !detail.haveWifi })} />
-            <label htmlFor='wifidetail'>Wifi</label> */}
-
-            {/* <input type='checkbox' checked={detail.isEmpty} />
-            <label>Empty</label> */}
             <div className='flex-between mb5'>
                 <div className='flex'>
                     {userCurrent.isAdmin && <button className='btn' onClick={() => { setBtn("update") }}>Thay đổi</button>}
@@ -100,11 +82,12 @@ const RoomDetail = () => {
                             <button className='btn' onClick={() => { setBtn("bill") }}>Hóa đơn</button>
                         </>}
                 </div>
-                {userCurrent.isAdmin && <button className='btn' onClick={deleteRoom}>xóa phòng</button>}
+                {userCurrent.isAdmin && <button className='btn' onClick={deleteRoom}>Xóa phòng</button>}
             </div>
             {btn === "list-user" && <ListUser users={detail.users} deleteRoom={deleteRoom} roomID={roomID} getRoomDetail={getRoomDetail} />}
-            {btn === "update" && <div>Thay đổi</div>}
-            {btn === "bill" && <div>Hóa đơn</div>}
+            {btn === "update" && <UpdateRoom detail={detail} getRoomDetail={getRoomDetail}/>}
+            {btn === "bill" && (userCurrent.isAdmin || ( userCurrent.room && userCurrent.room.roomID === +roomID)) && 
+            <Bill detail={detail} roomID={roomID}/>}
         </div>
     )
 }

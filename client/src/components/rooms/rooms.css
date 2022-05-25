@@ -79,12 +79,14 @@
 }
 
 .mb5{
-    margin-bottom: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-bottom: solid #888888 1px;
 }
 
 .container-lu{
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 }
 
 .list-room_user li{
@@ -97,6 +99,28 @@
 
 .list-room_user li:hover{
     background-color: var(--bg-post);
+}
+
+.mb5 button{
+    background-color: var(--bg-post);
+    color: #cbcaca;
+    border: none;
+    margin: 0 15px 0 0;
+    padding: 10px 15px;
+    border-radius: 2px;
+}
+
+.mb5 button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.list-room_user li button{
+    display: none;
+}
+
+.list-room_user li:hover button{
+    display: block;
 }
 
 .card-user{
@@ -144,7 +168,7 @@
 
 /* update */
 
-.input-room_update input{
+.input-room_update input, .billInput{
     outline: none;
     border: 1px #888888 solid;
     color: #dedede;
@@ -154,7 +178,7 @@
     margin-bottom: 10px;
 }
 
-.input-room_update input:focus{
+.input-room_update input:focus, .billInput:focus{
     color: #fff;
     border: 1px solid #fff;
 }
@@ -173,4 +197,41 @@
 
 .contract p{
     color: #dddcdc;
+}
+
+.table tr td{
+    padding: 10px;
+}
+
+.tbl-head td{
+    text-align: center;
+}
+
+.form-search_bill{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-search_bill{
+    padding: 10px;
+    height: 38px;
+}
+
+.bill h4{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.4rem;
+}
+
+.i_cb{
+    background: none;
+    color: #fff;
+}
+
+.datebill{
+    padding-right: 20px;
+    padding-bottom: 5px;
+    font-size: 0.8rem;
+    text-align: right;
 }

@@ -1,0 +1,20 @@
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = __importDefault(require("express"));
+const room_controller_1 = __importDefault(require("../controllers/room.controller"));
+const authRole_1 = __importDefault(require("./../middleware/authRole"));
+const authVerifyToken_1 = __importDefault(require("../middleware/authVerifyToken"));
+const routeRoom = express_1.default.Router();
+routeRoom.use(authVerifyToken_1.default);
+routeRoom.get('/:roomID', room_controller_1.default.getRoomDetail);
+routeRoom.get('/', room_controller_1.default.getAllRoom);
+routeRoom.use((0, authRole_1.default)('admin'));
+routeRoom.post('/', room_controller_1.default.createRoom);
+routeRoom.put('/:id', room_controller_1.default.updateRoom);
+routeRoom.put('/addUser/:userID', room_controller_1.default.addUser);
+routeRoom.delete('/delUser/:userID', room_controller_1.default.deleteUser);
+routeRoom.delete('/:id', room_controller_1.default.deleteRoom);
+exports.default = routeRoom;

@@ -30,20 +30,20 @@ Diện tích căn nhà :....................m2;
         <p>
         4.1. Bên B sẽ giao cho Bên A một khoản tiền là ........................ VNĐ (bằng chứ:............................) ngay sau khi ký hợp đồng này. Số tiền này là tiền đặt cọc để đảm bảm thực hiện Hợp đồng cho thuê nhà. Kể từ ngày Hợp Đồng có hiệu lực.
 
-4.2. Nếu Bên B đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước tới Bên A thì Bên A sẽ không phải hoàn trả lại Bên B số tiền đặt cọc này.
+<br/>4.2. Nếu Bên B đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước tới Bên A thì Bên A sẽ không phải hoàn trả lại Bên B số tiền đặt cọc này.
 
 Nếu Bên A đơn phương chấm dứt hợp đồng mà không thực hiện nghĩa vụ báo trước tới bên B thì bên A sẽ phải hoàn trả lại Bên B số tiền đặt cọc và phải bồi thường thêm một khoản bằng chính tiền đặt cọc.
 
-4.3. Tiền đặt cọc của Bên B sẽ không được dùng để thanh toán Tiền Thuê. Nếu Bên B vi phạm Hợp Đồng làm phát sinh thiệt hại cho Bên A thì Bên A có quyền khấu trừ Tiền Đặt Cọc để bù đắp các chi phí khắc phục thiệt hại phát sinh. Mức chi phí bù đắp thiệt hại sẽ được Các Bên thống nhất bằng văn bản.
+<br/>4.3. Tiền đặt cọc của Bên B sẽ không được dùng để thanh toán Tiền Thuê. Nếu Bên B vi phạm Hợp Đồng làm phát sinh thiệt hại cho Bên A thì Bên A có quyền khấu trừ Tiền Đặt Cọc để bù đắp các chi phí khắc phục thiệt hại phát sinh. Mức chi phí bù đắp thiệt hại sẽ được Các Bên thống nhất bằng văn bản.
 
-4.4. Vào thời điểm kết thúc Thời Hạn Thuê hoặc kể từ ngày Chấm dứt Hợp Đồng, Bên A sẽ hoàn lại cho Bên B số Tiền Đặt Cọc sau khi đã khấu trừ khoản tiền chi phí để khắc phục thiệt hại (nếu có).
+<br/>4.4. Vào thời điểm kết thúc Thời Hạn Thuê hoặc kể từ ngày Chấm dứt Hợp Đồng, Bên A sẽ hoàn lại cho Bên B số Tiền Đặt Cọc sau khi đã khấu trừ khoản tiền chi phí để khắc phục thiệt hại (nếu có).
         </p>
         <h4>Điều 5. Tiền thuê nhà:</h4>
         <p>
         5.1. Tiền Thuê nhà đối với Diện Tích Thuê nêu tại mục 1.1 Điều 1 là: ..........................VNĐ/tháng (Bằng chữ:...........................................)
 
 5.2 Tiền Thuê nhà không bao gồm chi phí sử dụng Diên tích thuê. Mọi chi phí sử dụng Diện tích thuê nhà bao gồm tiền điện, nước, vệ sinh....sẽ do bên B trả theo khối lượng, công suất sử dụng thực tế của Bên B hàng tháng, được tính theo đơn giá của nhà nước.
-5.3 Tiền đóng thêm hàng tháng bao gồm tiền điện, nước, wifi(nếu có), gửi xe(nếu có):<br/>
+<br/>5.3 Tiền đóng thêm hàng tháng bao gồm tiền điện, nước, wifi(nếu có), gửi xe(nếu có):<br/>
 - Tiền điện: 4.000 VND/số<br/>
 - Tiền nước: 20.000 VND/Khối<br/>
 - Wifi: 50.000 VND/tháng<br/>
@@ -62,40 +62,40 @@ Yêu cầu Bên B phải sửa chữa phần hư hỏng, thiệt hại do lỗi 
 
  
 
-7.2. Nghĩa vụ của Bên Cho Thuê:
+<br/>7.2. Nghĩa vụ của Bên Cho Thuê:
 
-- Bàn giao Diện Tích Thuê cho Bên B theo đúng thời gian quy định trong Hợp Đồng;
+<br/>- Bàn giao Diện Tích Thuê cho Bên B theo đúng thời gian quy định trong Hợp Đồng;
 
-- Đảm bảo việc cho thuê theo Hợp Đồng này là đúng quy định của pháp luật;
+<br/>- Đảm bảo việc cho thuê theo Hợp Đồng này là đúng quy định của pháp luật;
 
-- Đảm bảo cho Bên B thực hiện quyền sử dụng Diện Tích Thuê một cách độc lập và liên tục trong suốt Thời Hạn Thuê, trừ trường hợp vi phạm pháp luật và/hoặc các quy định của Hợp Đồng này.
+<br/>- Đảm bảo cho Bên B thực hiện quyền sử dụng Diện Tích Thuê một cách độc lập và liên tục trong suốt Thời Hạn Thuê, trừ trường hợp vi phạm pháp luật và/hoặc các quy định của Hợp Đồng này.
 
-- Không xâm phạm trái phép đến tài sản của Bên B trong phần Diện Tích Thuê. Nếu Bên A có những hành vi vi phạm gây thiệt hại cho Bên B trong Thời Gian Thuê thì Bên A phải bồi thường.
+<br/>- Không xâm phạm trái phép đến tài sản của Bên B trong phần Diện Tích Thuê. Nếu Bên A có những hành vi vi phạm gây thiệt hại cho Bên B trong Thời Gian Thuê thì Bên A phải bồi thường.
 
-- Tuân thủ các nghĩa vụ khác theo thoả thuận tại Hợp Đồng này hoặc/và các văn bản kèm theo Hợp đồng này; hoặc/và theo quy định của pháp luật Việt Nam.
+<br/>- Tuân thủ các nghĩa vụ khác theo thoả thuận tại Hợp Đồng này hoặc/và các văn bản kèm theo Hợp đồng này; hoặc/và theo quy định của pháp luật Việt Nam.
         </p>
         <h4>Điều 8. Quyền và nghĩa vụ của bên thuê nhà:</h4>
         <p>
         8.1. Quyền của Bên Thuê:
 
-+ Nhận bàn giao Diện tích Thuê theo đúng thoả thuận trong Hợp Đồng;
+        <br/>+ Nhận bàn giao Diện tích Thuê theo đúng thoả thuận trong Hợp Đồng;
 
-+ Được sử dụng phần Diện Tích Thuê làm nơi để ở và các hoạt động hợp pháp khác;
+        <br/>+ Được sử dụng phần Diện Tích Thuê làm nơi để ở và các hoạt động hợp pháp khác;
 
-+ Yêu cầu Bên A sửa chữa kịp thời những hư hỏng không phải do lỗi của Bên B trong phần Diện Tích Thuê để bảo đảm an toàn;
+        <br/>+ Yêu cầu Bên A sửa chữa kịp thời những hư hỏng không phải do lỗi của Bên B trong phần Diện Tích Thuê để bảo đảm an toàn;
 
-+ Được tháo dỡ và đem ra khỏi phần Diện Tích Thuê các tài sản, trang thiết bị của bên B đã lắp đặt trong phần Diện Tích Thuê khi hết Thời Hạn Thuê hoặc Đơn phương chấm dứt hợp đồng Bên thoả thuận chấm dứt Hợp Đồng.
+        <br/>+ Được tháo dỡ và đem ra khỏi phần Diện Tích Thuê các tài sản, trang thiết bị của bên B đã lắp đặt trong phần Diện Tích Thuê khi hết Thời Hạn Thuê hoặc Đơn phương chấm dứt hợp đồng Bên thoả thuận chấm dứt Hợp Đồng.
 
  
 
-8.2. Nghĩa vụ của Bên Thuê:
+<br/>8.2. Nghĩa vụ của Bên Thuê:
 
-+ Sử dụng Diện Tích Thuê đúng mục đích đã thỏa thuận, giữ gìn nhà ở và có trách nhiệm trong việc sửa chữa những hư hỏng do mình gây ra;
+<br/>+ Sử dụng Diện Tích Thuê đúng mục đích đã thỏa thuận, giữ gìn nhà ở và có trách nhiệm trong việc sửa chữa những hư hỏng do mình gây ra;
 
-+ Thanh toán Tiền Đặt Cọc, Tiền Thuê đầy đủ, đúng thời hạn đã thỏa thuận;
+<br/>+ Thanh toán Tiền Đặt Cọc, Tiền Thuê đầy đủ, đúng thời hạn đã thỏa thuận;
 
-+ Trả lại Diện Tích Thuê cho Bên A khi hết Thời Hạn Thuê hoặc chấm dứt Hợp Đồng Thuê;
-+ Mọi việc sửa chữa, cải tạo, lắp đặt bổ sung các trang thiết bị làm ảnh hưởng đến kết cấu của căn phòng…, Bên B phải có văn bản thông báo cho Bên A và chỉ được tiến hành các công việc này sau khi có sự đồng ý bằng văn bản của Bên A;
+<br/>+ Trả lại Diện Tích Thuê cho Bên A khi hết Thời Hạn Thuê hoặc chấm dứt Hợp Đồng Thuê;
+<br/>+ Mọi việc sửa chữa, cải tạo, lắp đặt bổ sung các trang thiết bị làm ảnh hưởng đến kết cấu của căn phòng…, Bên B phải có văn bản thông báo cho Bên A và chỉ được tiến hành các công việc này sau khi có sự đồng ý bằng văn bản của Bên A;
 
 + Tuân thủ một cách chặt chẽ quy định tại Hợp Đồng này, các nội quy phòng trọ (nếu có) và các quy định của pháp luật Việt Nam.
         </p>
@@ -105,9 +105,9 @@ Yêu cầu Bên B phải sửa chữa phần hư hỏng, thiệt hại do lỗi 
         <p>
         - Hợp đồng này có hiệu lực kể từ ngày hai bên cũng ký kết;
 
-- Các Bên cam kết thực hiện nghiêm chỉnh và đầy đủ các thoả thuận trong Hợp Đồng này trên tinh thần hợp tác, thiện chí.
+        <br/>- Các Bên cam kết thực hiện nghiêm chỉnh và đầy đủ các thoả thuận trong Hợp Đồng này trên tinh thần hợp tác, thiện chí.
 
-- Mọi sửa đổi, bổ sung đối với bất kỳ điều khoản nào của Hợp Đồng phải được lập thành văn bản, có đầy đủ chữ ký của mỗi Bên. Văn bản sửa đổi bổ sung Hợp Đồng có giá trị pháp lý như Hợp Đồng, là một phần không tách rời của Hợp Đồng này.
+        <br/>- Mọi sửa đổi, bổ sung đối với bất kỳ điều khoản nào của Hợp Đồng phải được lập thành văn bản, có đầy đủ chữ ký của mỗi Bên. Văn bản sửa đổi bổ sung Hợp Đồng có giá trị pháp lý như Hợp Đồng, là một phần không tách rời của Hợp Đồng này.
         </p>
     </div>
   )
