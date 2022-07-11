@@ -75,8 +75,8 @@ const userController = {
                 });
             }
             const hashPassword = await hash(password);
-            const room = await getRepository(Room).findOne(roomID);
-            if (room) {
+            // const room = await getRepository(Room).findOne(roomID);
+            // if (room) {
                 const newUser = new User();
                 newUser.phoneNumber = phoneNumber;
                 newUser.isAdmin = isAdmin;
@@ -88,16 +88,16 @@ const userController = {
                 const newUserDb = await getRepository(User).save(user);
 
                 if (newUserDb) {
-                    const newRoom: Room = { ...room, isEmpty: false };
-                    if (room.isEmpty) {
-                        await getRepository(Room).save(newRoom);
-                    }
+                    // const newRoom: Room = { ...room, isEmpty: false };
+                    // if (room.isEmpty) {
+                    //     await getRepository(Room).save(newRoom);
+                    // }
                     return res.status(201).json({
                         success: true,
                         message: `phoneNumber: ${newUser.phoneNumber} registered successfully !!!`
                     });
                 }
-            }
+            // }
             return res.status(404).json({
                 success: false,
                 message: 'Room not found !!!'
